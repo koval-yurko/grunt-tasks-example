@@ -1,0 +1,13 @@
+{
+  "name": "some-name",
+  "description": "Some description",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "node-minify" : "0.10.5"
+  },
+  "scripts": {
+    "build": "npm install && bower install && grunt"
+  }
+}
